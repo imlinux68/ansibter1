@@ -5,6 +5,9 @@
 
 ## First step - prepare environment
 ### ssh
+
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
 Creating an ssh key-pair, but if you **have it already**, !then! change variables of 2 files<br>
 **_key name_** in **_main_** terraform file<br>
 **_ansible_ssh_private_key_file_** in **_inventory.txt_** file
@@ -40,6 +43,9 @@ ansible --version
 
 ## Second step
 ### EC2
+
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+
 Creating ec2 with terraform and install docker and docker-compose from user_data template file
 - Terraform initializing
 - Terraform planning
@@ -54,6 +60,9 @@ terraform apply --auto-approve
 
 ## Third Step
 ### Running load balancer
+
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
+
 Terraform will output a public ip <br>
 Take it and put it into **_inventory.txt_** <br>
 Into  **ansible_host variable** <br>
