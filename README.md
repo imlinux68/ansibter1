@@ -1,7 +1,7 @@
 # Terraform + Ansible
 ## _How to run LoadBalancer in docker compose on EC2 using Terraform and Ansible_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=Kubernetes&logoColor=white)](https://nodesource.com/products/nsolid)
 
 ## First step - prepare environment
 ### ssh
