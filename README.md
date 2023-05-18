@@ -64,7 +64,7 @@ terraform apply --auto-approve
 terraform destroy
 ```
 
-## Third Step
+## Third step
 ### Running load balancer
 
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
