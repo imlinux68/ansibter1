@@ -54,9 +54,9 @@ terraform apply --auto-approve
 
 ## Third Step
 ### Running load balancer
-Terraform will output a public ip
-Take it and put it into **_inventory.txt_**
-Into  **ansible_host variable**
+Terraform will output a public ip <br>
+Take it and put it into **_inventory.txt_** <br>
+Into  **ansible_host variable** <br>
 
 After saving this file run next:
 ```sh
