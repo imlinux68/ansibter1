@@ -29,7 +29,7 @@ terraform --version
 ```
 
 ### Ansible 
-Use the terraform [installation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) link
+Use the Ansible [installation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) link
 ```bash
 python3 -m pip install --user ansible
 
