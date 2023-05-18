@@ -1,0 +1,24 @@
+---
+- name: Deploy docker compose
+  hosts: web_server1
+  become: yes
+  gather_facts: no
+
+  tasks:
+    - name: Git_Installation
+      yum:
+        name: git
+        state: present
+
+    - name: Git_COPY
+      git:
+        repo: https://github.com/imlinux68/dockerlb1.git
+        dest: /opt/docker-compose-up
+        version: main
+        force: yes
+
+    - name: Run DC
+      become: yes
+      shell: docker-compose up -d
+      args:
+        chdir: /opt/docker-compose-up
