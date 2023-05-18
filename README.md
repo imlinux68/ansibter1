@@ -41,10 +41,10 @@ ansible --version
 ## Second step
 ### EC2
 Creating ec2 with terraform and install docker and docker-compose from user_data template file
-- terraform initializing
-- terraform planning
-- terraform applying
-- terraform destrpoying    # terraform destroy
+- Terraform initializing
+- Terraform planning
+- Terraform applying
+- Terraform destrpoying    # terraform destroy
 
 ```sh
 terraform init
@@ -54,19 +54,18 @@ terraform apply --auto-approve
 
 ## Third Step
 ### Running load balancer
-terraform will output a public ip
-take it and put it into **_inventory.txt_**
-into  **ansible_host variable**
+Terraform will output a public ip
+Take it and put it into **_inventory.txt_**
+Into  **ansible_host variable**
 
-after saving this file
-run 
+After saving this file run next:
 ```sh
 ansible-playbook lb.yaml
 ```
 
-and check the public ip
+And check the public ip
 ```sh
-curl http://<public_p>
+curl http://<public_ip>
 firefox http://<public_ip>
 ```
 
@@ -76,3 +75,4 @@ firefox http://<public_ip>
 MIT
 
 **Free Software, Hell Yeah!**
+
