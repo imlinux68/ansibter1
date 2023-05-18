@@ -50,7 +50,7 @@ Creating ec2 with terraform and install docker and docker-compose from user_data
 - Terraform initializing
 - Terraform planning
 - Terraform applying
-- Terraform destrpoying    # terraform destroy
+- Terraform destroying    # terraform destroy
 
 ```sh
 terraform init
