@@ -58,6 +58,12 @@ terraform plan
 terraform apply --auto-approve
 ```
 
+
+```sh
+# In order to destroy created with terraform
+terraform destroy
+```
+
 ## Third Step
 ### Running load balancer
 
