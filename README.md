@@ -5,8 +5,8 @@
 
 ## First step - prepare environment
 ### ssh
-Creating an ssh key-pair, but if you **have it already**, !then! change variables of 2 files
-**_key name_** in **_main_** terraform file
+Creating an ssh key-pair, but if you **have it already**, !then! change variables of 2 files<br>
+**_key name_** in **_main_** terraform file<br>
 **_ansible_ssh_private_key_file_** in **_inventory.txt_** file
 
 ```sh
